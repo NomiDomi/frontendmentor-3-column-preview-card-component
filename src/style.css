@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
 :root {
+    
+
     /* Color scheme */
     --primary-color-01: hsl(31, 77%, 52%);
     --primary-color-02: hsl(184, 100%, 22%);
@@ -29,6 +31,7 @@ body {
 main {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 section {
@@ -98,7 +101,7 @@ button:hover {
 }
 
 @media screen and (max-width: 800px) {
-    body {
+    main {
         flex-direction: column;
         height: auto;
     }
