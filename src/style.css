@@ -114,13 +114,17 @@ button:hover {
 }
 
 @media screen and (max-width: 800px) {
+    body {
+        height: auto;
+    }
+
     main {
         flex-direction: column;
-        height: auto;
     }
 
     section {
         width: 90%;
+        max-width: none;
     }
 
     p {
